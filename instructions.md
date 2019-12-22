@@ -124,7 +124,7 @@ seed:
 
 ### Deploy
 
-Run `npx prisma deploy --no-generate`. The post-deploy hook will automatically run the prisma generate command.
+Run `npx prisma deploy`
 
 Your `prisma.yml` file should look like this:
 
@@ -145,7 +145,7 @@ generate:
 # Ensures Prisma client is re-generated after a datamodel change.
 hooks:
   post-deploy:
-    - prisma generate
+    - npx prisma generate
     - npx nexus-prisma-generate --client ./generated/prisma-client --output ./generated/nexus-prisma
 
 # Seeds initial data into the database by running a script.
