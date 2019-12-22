@@ -101,7 +101,6 @@ generate:
 # Add hook for nexus-prisma
 hooks:
   post-deploy:
-    - prisma generate
     - npx nexus-prisma-generate --client ./generated/prisma-client --output ./generated/nexus-prisma
 ```
 
