@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prisma": "npx prisma deploy",
+    "prisma": "npx prisma deploy --no-generate",
     "start": "ts-node-dev --no-notify --respawn --transpileOnly ./src",
     "seed": "npx prisma seed"
   },
