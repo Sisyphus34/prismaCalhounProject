@@ -124,7 +124,7 @@ seed:
 
 ### Deploy
 
-`npx prisma deploy`
+Run `npx prisma deploy --no-generate`. The post-deploy hook will automatically run the prisma generate command.
 
 Your `prisma.yml` file should look like this:
 
