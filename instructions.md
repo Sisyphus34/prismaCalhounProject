@@ -623,7 +623,7 @@ Inside the `queries.js` file, write and export a query with graphql-tag to fetch
 import gql from 'graphql-tag';
 
 export const USERS = gql`
-  query user {
+  query users {
     users {
       id
       name
