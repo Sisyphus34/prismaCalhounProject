@@ -526,23 +526,6 @@ The first time you run `npm start` with typescript, a file called `react-app-env
 /// <reference types="react-scripts" />
 ```
 
-### .graphqlconfig
-
-Optionally, create a .graphqlconfig for vscode plugin support. The server must be running from the terminal to use the plugin as well.
-
-```json
-{
-  "schemaPath": "../server/generated/schema.graphql",
-  "extensions": {
-    "endpoints": {
-      "dev": {
-        "url": "http://localhost:4000"
-      }
-    }
-  }
-}
-```
-
 ### .gitignore
 
 Add the same code from the `.gitignore` in the `server` folder to the bottom of the `.gitignore` file in `client`. However, instead of `/generated`, use `/src/generated`.
