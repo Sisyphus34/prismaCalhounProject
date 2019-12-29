@@ -270,9 +270,9 @@ Navigate into the `typescript folder`
 
 - `cd typescript`
 
-Create a `index.ts` file
+Create a `types.ts` file
 
-- `touch index.ts`
+- `touch types.ts`
 
 The folder structure should look like:
 
@@ -285,7 +285,7 @@ The folder structure should look like:
       - index.ts
     - src
       - typescript
-        - index.ts
+        - types.ts
       - schema.ts
       - server.ts
       - index.ts
@@ -296,7 +296,7 @@ The folder structure should look like:
 
 Add this boilerplate code to the types.ts file. This file will help vscode intellisense autocomplete our code.
 
-`src/typescript/index.ts`
+`src/typescript/types.ts`
 
 ```ts
 import { Prisma } from '../../generated/prisma-client';
@@ -343,7 +343,7 @@ const schema = makePrismaSchema({
   typegenAutoConfig: {
     sources: [
       {
-        source: path.join(__dirname, './typescript/index.ts'),
+        source: path.join(__dirname, './typescript/types.ts'),
         alias: 'types',
       },
     ],
