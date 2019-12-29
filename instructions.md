@@ -196,6 +196,7 @@ In the `server` folder, create a `tsconfig.json` with the following settings:
     "alwaysStrict": true,
     "strictBindCallApply": true,
     "strictFunctionTypes": true,
+    "esModuleInterop": true,
     "allowJs": true
   }
 }
