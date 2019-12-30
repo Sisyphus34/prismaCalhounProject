@@ -8,7 +8,7 @@ Open this sample project in a terminal:
   - `npx prisma deploy`
     - Use a demo server from prisma.io
   - `npm run start`
-- `cd ..` and `cd server`
+- `cd ..` and `cd client`
   - `npm install`
   - `npm run codegen`
   - `npm run start`
