@@ -664,6 +664,8 @@ Add `graphql-codegen` as a developer dependency by running `npm install -D @grap
 
 Update your `package.json` with a script to automatically generate your files. Then, run `npm run codegen`.
 
+If working in VS Code Online, it is necessary to patch a create-react-app bug with a `postinstall` script. You may need to delete `node_modules` and run `npm install` again.
+
 ```json
 {
   "scripts": {
@@ -671,7 +673,8 @@ Update your `package.json` with a script to automatically generate your files. T
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "codegen": "graphql-codegen --watch"
+    "codegen": "graphql-codegen --watch",
+    "postinstall": "npx replace-in-file \"protocol: 'ws',\" \"protocol: window.location.protocol === 'https:' ? 'wss' : 'ws',\" node_modules/react-dev-utils/webpackHotDevClient.js"
   }
 }
 ```
