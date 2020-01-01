@@ -466,9 +466,11 @@ Add scripts to your `package.json` to make development easier.
 ```json
 {
   "scripts": {
-    "prisma": "npx prisma deploy",
     "start": "ts-node-dev --no-notify --respawn --transpileOnly ./src",
-    "seed": "npx prisma seed"
+    "deploy": "npx prisma deploy",
+    "reset": "npx prisma reset",
+    "seed": "npx prisma seed",
+    "seed:watch": "npx ts-node-dev --respawn --no-notify --transpileOnly ./seed/index"
   }
 }
 ```
@@ -533,6 +535,23 @@ Add the same code from the `.gitignore` in the `server` folder to the bottom of 
 For reference, use [gitignore.io](https://www.gitignore.io/api/node,linux,macos,windows)
 
 Also, delete the hidden `.git` folder inside `client`, as it will conflict with the `project-name` repository.
+
+### .graphqlconfig
+
+Optionally, create a .graphqlconfig for vscode plugin support. The server must be running from the terminal to use the plugin as well.
+
+```json
+{
+  "schemaPath": "../server/generated/schema.graphql",
+  "extensions": {
+    "endpoints": {
+      "dev": {
+        "url": "http://localhost:4000"
+      }
+    }
+  }
+}
+```
 
 ### App.js
 
@@ -762,4 +781,82 @@ const App = () => {
 };
 
 export default App;
+```
+
+### Add Routing
+
+Run `npm install react-router-dom`. Inside `src/index.js`, import the router provider and wrap it around the elements inside of the `root` constant.
+
+```jsx
+import { BrowserRouter as Router } from 'react-router-dom';
+
+const root = (
+  <Router>
+    <ApolloProvider client={client}>
+      <App />
+    </ApolloProvider>
+  </Router>
+);
+```
+
+### Add Bootstrap
+
+Optionally, add bootstrap for some default styling. Run `npm install bootstrap react-bootstrap react-router-bootstrap`
+
+Inside `src/index.js`, import the bootstrap css file.
+
+```jsx
+import 'bootstrap/dist/css/bootstrap.min.css';
+```
+
+The `index.js` file should look like:
+
+```jsx
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from 'components/App/App';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import { BrowserRouter as Router } from 'react-router-dom';
+
+import ApolloClient from 'apollo-boost';
+import { ApolloProvider } from '@apollo/react-hooks';
+
+const client = new ApolloClient({
+  uri: 'http://localhost:4000',
+});
+
+const root = (
+  <Router>
+    <ApolloProvider client={client}>
+      <App />
+    </ApolloProvider>
+  </Router>
+);
+
+ReactDOM.render(root, document.getElementById('root'));
+```
+
+### React Router and Bootstrap Inconsistencies
+
+React Router and Bootstrap do not play nicely together. Create a custom nav link inside of `src/components/CustomNavLink/CustomNavLink.js`.
+
+```jsx
+import React from 'react';
+import { useLocation } from 'react-router-dom';
+import { LinkContainer } from 'react-router-bootstrap';
+import Nav from 'react-bootstrap/Nav';
+
+const CustomNavLink = ({ children, to, exact }) => {
+  const { pathname } = useLocation();
+
+  return (
+    <LinkContainer to={to} exact={exact}>
+      <Nav.Link active={pathname === to}>{children}</Nav.Link>
+    </LinkContainer>
+  );
+};
+
+export default CustomNavLink;
 ```
