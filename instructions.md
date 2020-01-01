@@ -537,6 +537,7 @@ For reference, use [gitignore.io](https://www.gitignore.io/api/node,linux,macos,
 
 Also, delete the hidden `.git` folder inside `client`, as it will conflict with the `project-name` repository.
 
+<!--
 ### .graphqlconfig
 
 Optionally, create a .graphqlconfig for vscode plugin support. The server must be running from the terminal to use the plugin as well.
@@ -553,6 +554,7 @@ Optionally, create a .graphqlconfig for vscode plugin support. The server must b
   }
 }
 ```
+ -->
 
 ### App.js
 
