@@ -4,9 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prisma": "npx prisma deploy",
     "start": "ts-node-dev --no-notify --respawn --transpileOnly ./src",
-    "seed": "npx prisma seed"
+    "login": "npx prisma login",
+    "deploy": "npx prisma deploy",
+    "reset": "npx prisma reset",
+    "seed": "npx prisma seed",
+    "seed:watch": "npx ts-node-dev --respawn --no-notify --transpileOnly ./seed/index"
   },
   "author": "",
   "license": "ISC",

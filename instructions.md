@@ -467,6 +467,7 @@ Add scripts to your `package.json` to make development easier.
 {
   "scripts": {
     "start": "ts-node-dev --no-notify --respawn --transpileOnly ./src",
+    "login": "npx prisma login",
     "deploy": "npx prisma deploy",
     "reset": "npx prisma reset",
     "seed": "npx prisma seed",
