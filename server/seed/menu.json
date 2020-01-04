@@ -357,6 +357,34 @@
             "pricing": "22.50"
         },
         {
+            "name": "Grilled Chicken Ceasar Salad",
+            "catagory": "ENTREE",
+            "type": "Chicken",
+            "description": "Crisp romaine tossed with homemade ceasar dressing, freshly grated parmesan, with goat cheese baguette points",
+            "pricing": "15.95"
+        },
+        {
+            "name": "Roasted Pork Tenderloin Filets",
+            "catagory": "ENTREE",
+            "type": "Pork",
+            "description": "Lightly crusted and sautéed, served over roasted potato rounds in Prosciutto Cognac Cream Sauce with simmered onions and mushrooms",
+            "pricing": "23.95"
+        },
+        {
+            "name": "Pan Fried Rainbow Trout",
+            "catagory": "ENTREE",
+            "type": "Fish and Seafood",
+            "description": "Served with warm corn-red pepper relish and vegetablesm (available broiled upon request)",
+            "pricing": "22.50"
+        },
+        {
+            "name": "Shrimp & Crab Stuffed Rainbow Trout",
+            "catagory": "ENTREE",
+            "type": "Fish and Seafood",
+            "description": "with lemon beurre blanc served with warm corn-red pepper relish and vegetables",
+            "pricing": "27.50"
+        },
+        {
             "name": "WARM CARAMEL BROWNIE SUNDAE",
             "catagory": "DESSERT",
             "description": "Topped with chopped pecans, premium vanilla ice cream, real whipped cream and a cherry. ",
@@ -373,6 +401,31 @@
             "catagory": "DESSERT",
             "description": "Deep Dish style with a fresh pastry crust, served warm and topped with a dollop of whipped cream and a drizzle of Kahlua. (a la mode $6.50) ",
             "pricing": "5.50"
-        }
+        },
+        {
+            "name": "Homemade Pretzel-Crusted Key Lime Pie",
+            "catagory": "DESSERT",
+            "description": "Refreshing creamy key lime pie in brown sugar and crushed pretzel crust, topped with fresh whipped cream and rasberry drizzle",
+            "pricing": "5.25"
+        },
+        {
+            "name": "",
+            "catagory": "DESSERT",
+            "description": "",
+            "pricing": ""
+        },
+        {
+            "name": "",
+            "catagory": "DESSERT",
+            "description": "",
+            "pricing": ""
+        },
+        {
+            "name": "",
+            "catagory": "DESSERT",
+            "description": "",
+            "pricing": ""
+        },
+        
     ]
 }
