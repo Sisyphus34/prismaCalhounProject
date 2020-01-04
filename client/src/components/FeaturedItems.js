@@ -23,7 +23,7 @@ const FeaturedItems = (props) => {
   };
 
   return (
-    <Carousel style = {{maxwidth: '100px'}} activeIndex={index} direction={direction} onSelect={handleSelect} >
+    <Carousel activeIndex={index} direction={direction} onSelect={handleSelect} >
       <Carousel.Item>
         <img
           src={`https://source.unsplash.com/1920x1080/?${data.menuItems[0].name}`}

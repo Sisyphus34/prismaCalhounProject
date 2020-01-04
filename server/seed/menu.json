@@ -409,23 +409,22 @@
             "pricing": "5.25"
         },
         {
-            "name": "",
+            "name": "Tall Cheesecake Brulee",
             "catagory": "DESSERT",
-            "description": "",
-            "pricing": ""
+            "description": "New York style cheesecake in graham crust with a hand-fired caramelized top, served with a light caramel",
+            "pricing": "6.50"
         },
         {
-            "name": "",
+            "name": "Dreamsicle Sundae ",
             "catagory": "DESSERT",
-            "description": "",
-            "pricing": ""
+            "description": "Classic orange sherbert on vanilla ice cream topped with real dairy whipped cream and rasberry syrup",
+            "pricing": "4.50"
         },
         {
-            "name": "",
+            "name": "Classic Chocolate Sundae",
             "catagory": "DESSERT",
-            "description": "",
-            "pricing": ""
-        },
-        
+            "description": "Rich vanilla ice cream topped with Dutch Chocolate sauce, chopped walnuts, whip cream and a cherry",
+            "pricing": "5.50"
+        }
     ]
 }
