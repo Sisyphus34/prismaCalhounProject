@@ -141,288 +141,288 @@
         },
         {
             "name": "PRIME RIB",
-            "catagory": "ENTREE",
+            "catagory": "Entree",
             "type": "Beef",
             "description": "(12-ounce cut) Slow-roasted daily, served in simmered au jus (Larger cuts available upon request) ",
             "pricing": "27.00"
         },
         {
             "name": "PRIME RIB AND LOBSTER TAIL PLATTER",
-            "catagory": "ENTREE",
+            "catagory": "Entree",
             "type": "Beef",
             "description": "(12-ounce cut) Slow-roasted Prime Rib, serve with a (6-ounce) Lobster Tail",
             "pricing": "46.00"
         },
         {
             "name": "RIB EYE STEAK",
-            "catagory": "ENTREE",
+            "catagory": "Entree",
             "type": "Beef",
             "description": "(12-ounce cut) Prime-grade Rib Eye, grilled over infrared heat and served with loaded baked potatoes and vegetable medley",
             "pricing": "26.95"
         },
         {
             "name": "Pan Seared Thick Cut Rib Eye",
-            "catagory": "ENTREE",
+            "catagory": "Entree",
             "type": "Beef",
             "description": "(12-ounce cut)In a soy-based searing sauce with sautéed mushrooms and horseradish cream dipping sauce",
             "pricing": "29.95"
         },
         {
             "name": "Grilled Rib Eye with Sauteed Shrimp Scampi",
-            "catagory": "ENTREE",
+            "catagory": "Entree",
             "type": "Beef",
             "description": "Served with steamed rice pilaf or herb buttered spaghetti pasta",
             "pricing": "31.95"
         },
         {
             "name": "Filet Mignon",
-            "catagory": "ENTREE",
+            "catagory": "Entree",
             "type": "Beef",
             "description": "fully trimmed and grilled over infrared heat served with loaded baked potato and vegetable medley",
             "pricing": "26.95"
         },
         {
             "name": "Filet Bardin",
-            "catagory": "ENTREE",
+            "catagory": "Entree",
             "type": "Beef",
             "description": "Topped with broiled goat cheese and house béarnaise served with loaded baked potato and vegetable medley",
             "pricing": "28.95"
         },
         {
             "name": "Imperial Filet Mignon",
-            "catagory": "ENTREE",
+            "catagory": "Entree",
             "type": "Beef",
             "description": "Mounded with Blue crabmeat and finished with house béarnaise served with loaded baked potato and vegetable medley",
             "pricing": "31.00"
         },
         {
             "name": "Twin Filets",
-            "catagory": "ENTREE",
+            "catagory": "Entree",
             "type": "Beef",
             "description": "Pepper crusted filets grilled and served over roasted potato rounds in a prosciutto, cognac, mushroom and onion cream sauce (A Calhoun Corners signature dish)",
             "pricing": "29.75"
         },
         {
             "name": "Grecian Filet Mignon",
-            "catagory": "ENTREE",
+            "catagory": "Entree",
             "type": "Beef",
             "description": "A simmered mixture of mushrooms, bacon, oregano, and spring onion in garlic wine butter and au jus topped with feta crumbles",
             "pricing": "29.95"
         },
         {
             "name": "Beef Wellington Bordelaise",
-            "catagory": "ENTREE",
+            "catagory": "Entree",
             "type": "Beef",
             "description": "We begin this classic 18th century dish by folding a puff pastry lined with duck pate and onion-mushroom duxelles around a choice filet, baked golden and served with Burgundy Bordelaise",
             "pricing": "36.00"
         },
         {
             "name": "Sesame Seared Ahi Tuna",
-            "catagory": "ENTREE",
+            "catagory": "Entree",
             "type": "Fish and Seafood",
             "description": "on shrimp fritter cake with a light Szechuan sauce served with steamed vegetables or seasoned seaweed",
             "pricing": "28.00"
         },
         {
             "name": "Twin Crab Cakes",
-            "catagory": "ENTREE",
+            "catagory": "Entree",
             "type": "Fish and Seafood",
             "description": "our original recipe loaded with crabmeat and served on fresh spinach chiffonade with a whole grain mustard crème sauce",
             "pricing": "22.95"
         },
         {
             "name": "Lobster Tails Platter",
-            "catagory": "ENTREE",
+            "catagory": "Entree",
             "type": "Fish and Seafood",
             "description": "with drawn lemon butter Served with a warm corn relish, fresh vegetables, and baked potato",
             "pricing": ""
         },
         {
             "name": "Sherry Newburg Lobster and Shrimp on Puff Pastry",
-            "catagory": "ENTREE",
+            "catagory": "Entree",
             "type": "Fish and Seafood",
             "description": "Six-ounce lobster tail and shrimp simmered in Newburg cream sauce with mushrooms, julienne carrots, and Danish havarti",
             "pricing": "28.95"
         },
         {
             "name": "Coquilles de Maison",
-            "catagory": "ENTREE",
+            "catagory": "Entree",
             "type": "Fish and Seafood",
             "description": "Sea scallops sautéed in roasted garlic Chardonnay butter with bacon, mushrooms, and cream, then broiled with bits of Gruyere and Brie",
             "pricing": "26.50"
         },
         {
             "name": "Scallops Provencal",
-            "catagory": "ENTREE",
+            "catagory": "Entree",
             "type": "Fish and Seafood",
             "description": "Seared scallops crusted in Herbes de Provence, drizzled with parsley lemon butter and served with grilled asparagus and steamed rice pilaf",
             "pricing": "26.50"
         },
         {
             "name": "Fried Shrimp with Zesty Remoulade Dip",
-            "catagory": "ENTREE",
+            "catagory": "Entree",
             "type": "Fish and Seafood",
             "description": "Fried with a light seasoned breading and served with fresh vegetables, warm corn and red pepper relish, and baked potato ",
             "pricing": "21.50"
         },
         {
             "name": "Baked Seafood Trio",
-            "catagory": "ENTREE",
+            "catagory": "Entree",
             "type": "Fish and Seafood",
             "description": "Shrimp, scallops, and crabmeat baked over rice in a Parmesan and roasted red pepper Chardonnay butter topped with broiled Havarti",
             "pricing": "25.00"
         },
         {
             "name": "Spicy Shrim and Sausage on Stone-Ground Grits",
-            "catagory": "ENTREE",
+            "catagory": "Entree",
             "type": "Fish and Seafood",
             "description": "Large shrimp sautéed with premium sausage in a spicy Cajun cream sauce with fresh shaved Parmesan on slow simmered grits",
             "pricing": "22.95"
         },
         {
             "name": "Medici Shrimp and Parmasan Pasta",
-            "catagory": "ENTREE",
+            "catagory": "Entree",
             "type": "Fish and Seafood",
             "description": "Sautéed shrimp with roasted red peppers, mushrooms, spinach, artichoke hearts, and asparagus tossed with basil pesto alfredo",
             "pricing": "27.00"
         },
         {
             "name": "Scallop Spinach Salad",
-            "catagory": "ENTREE",
+            "catagory": "Entree",
             "type": "Fish and Seafood",
             "description": "Lightly dusted and pan fried scallops over spinach with crisp bacon, mushrooms, egg, and thin sliced onion w/ orange poppy seed Dijon dressing (Seared scallops available upon request)",
             "pricing": "17.95"
         },
         {
             "name": "Seared and Roasted Duck Breast",
-            "catagory": "ENTREE",
+            "catagory": "Entree",
             "type": "Duck",
             "description": "Boneless Duck Breast seared crisp then roasted for moist tenderness. Served in Asian five-spice herb au jus with risotto and vegetables",
             "pricing": "26.00"
         },
         {
             "name": "Duck Breast a l'Orange",
-            "catagory": "ENTREE",
+            "catagory": "Entree",
             "type": "Duck",
             "description": "in Gran Marnier Pan Sauce, served with steamed vegetables and Gruyere mashed potatoes",
             "pricing": "28.00"
         },
         {
             "name": "Fresh Cut Lamb Chops",
-            "catagory": "ENTREE",
+            "catagory": "Entree",
             "type": "Lamb",
             "description": "Grilled with Greek spice rub, served with fresh vegetables and lemon Parmesan pasta topped with tomatoes, olives, feta and herbs",
             "pricing": "28.00"
         },
         {
             "name": "Curried Vegetables",
-            "catagory": "ENTREE",
+            "catagory": "Entree",
             "type": "Vegetarian",
             "description": "seared broccoli, carrots, onion, mushrooms, and asparagus with, curry cream, and cranberry rice pilaf (Add a coriander and cardamom crusted chicken breast ($23.50))",
             "pricing": "18.50"
         },
         {
             "name": "Spinach Crepe Filled with Chicken and Shrimp",
-            "catagory": "ENTREE",
+            "catagory": "Entree",
             "type": "Chicken and Shrimp",
             "description": "Sautéed with spring onion, red peppers, and mushrooms, simmered in smoked gouda and Havarti sauce. Served with rice pilaf",
             "pricing": "24.50"
         },
         {
             "name": "Herb-Crusted Chicken & Mushrooms",
-            "catagory": "ENTREE",
+            "catagory": "Entree",
             "type": "Chicken",
             "description": "in tarragon pan gravy over roasted potato rounds. Served with fresh vegetables",
             "pricing": "18.95"
         },
         {
             "name": "Apple Brandy Pan Roasted Chicken",
-            "catagory": "ENTREE",
+            "catagory": "Entree",
             "type": "Chicken",
             "description": "on spinach ricotta spaghetti sautéed with green apples, sliced carrots and grape tomatoes",
             "pricing": "22.50"
         },
         {
             "name": "Jambalaya of Shrimp, Chicken, and Sausage",
-            "catagory": "ENTREE",
+            "catagory": "Entree",
             "type": "Chicken and Shrimp",
             "description": "Sautéed red peppers, onions, mushrooms and green apple, deglazed and served with spicy Avery Island dirty rice",
             "pricing": "25.50"
         },
         {
             "name": "Spinach and Goat Cheese Stuffed Chicken",
-            "catagory": "ENTREE",
+            "catagory": "Entree",
             "type": "Chicken",
             "description": "On spaghetti with sautéed tomatoes in light lemon mustard cream sauce",
             "pricing": "22.50"
         },
         {
             "name": "Grilled Chicken Ceasar Salad",
-            "catagory": "ENTREE",
+            "catagory": "Entree",
             "type": "Chicken",
             "description": "Crisp romaine tossed with homemade ceasar dressing, freshly grated parmesan, with goat cheese baguette points",
             "pricing": "15.95"
         },
         {
             "name": "Roasted Pork Tenderloin Filets",
-            "catagory": "ENTREE",
+            "catagory": "Entree",
             "type": "Pork",
             "description": "Lightly crusted and sautéed, served over roasted potato rounds in Prosciutto Cognac Cream Sauce with simmered onions and mushrooms",
             "pricing": "23.95"
         },
         {
             "name": "Pan Fried Rainbow Trout",
-            "catagory": "ENTREE",
+            "catagory": "Entree",
             "type": "Fish and Seafood",
             "description": "Served with warm corn-red pepper relish and vegetablesm (available broiled upon request)",
             "pricing": "22.50"
         },
         {
             "name": "Shrimp & Crab Stuffed Rainbow Trout",
-            "catagory": "ENTREE",
+            "catagory": "Entree",
             "type": "Fish and Seafood",
             "description": "with lemon beurre blanc served with warm corn-red pepper relish and vegetables",
             "pricing": "27.50"
         },
         {
             "name": "WARM CARAMEL BROWNIE SUNDAE",
-            "catagory": "DESSERT",
+            "catagory": "Dessert",
             "description": "Topped with chopped pecans, premium vanilla ice cream, real whipped cream and a cherry. ",
             "pricing": "6.00"
         },
         {
             "name": "SNICKERS PIE",
-            "catagory": "DESSERT",
+            "catagory": "Dessert",
             "description": "Graham Crust layered with fudge brownie, cream cheese filling, chocolate, peanuts and caramel. ",
             "pricing": "5.75"
         },
         {
             "name": "HOMEMADE PECAN PIE",
-            "catagory": "DESSERT",
+            "catagory": "Dessert",
             "description": "Deep Dish style with a fresh pastry crust, served warm and topped with a dollop of whipped cream and a drizzle of Kahlua. (a la mode $6.50) ",
             "pricing": "5.50"
         },
         {
             "name": "Homemade Pretzel-Crusted Key Lime Pie",
-            "catagory": "DESSERT",
+            "catagory": "Dessert",
             "description": "Refreshing creamy key lime pie in brown sugar and crushed pretzel crust, topped with fresh whipped cream and rasberry drizzle",
             "pricing": "5.25"
         },
         {
             "name": "Tall Cheesecake Brulee",
-            "catagory": "DESSERT",
+            "catagory": "Dessert",
             "description": "New York style cheesecake in graham crust with a hand-fired caramelized top, served with a light caramel",
             "pricing": "6.50"
         },
         {
             "name": "Dreamsicle Sundae ",
-            "catagory": "DESSERT",
+            "catagory": "Dessert",
             "description": "Classic orange sherbert on vanilla ice cream topped with real dairy whipped cream and rasberry syrup",
             "pricing": "4.50"
         },
         {
             "name": "Classic Chocolate Sundae",
-            "catagory": "DESSERT",
+            "catagory": "Dessert",
             "description": "Rich vanilla ice cream topped with Dutch Chocolate sauce, chopped walnuts, whip cream and a cherry",
             "pricing": "5.50"
         }
