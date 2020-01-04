@@ -1,4 +1,13 @@
-type User {
+
+type MenuItem { 
   id: ID! @id
   name: String!
+  description: String
+  price: Float!
+  catagory: String
+  type: String
+  size: String
+  createdAt: DateTime! @createdAt
+  updatedAt: DateTime! @updatedAt
+
 }

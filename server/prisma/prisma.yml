@@ -20,3 +20,5 @@ hooks:
 # Seeds initial data into the database by running a script.
 seed:
   run: npx ts-node-dev --no-notify --transpileOnly ./seed/index
+
+endpoint: https://us1.prisma.sh/shawn-picardy-1b06b8/calhoun_app/dev

@@ -3,7 +3,12 @@ import { prismaObjectType } from 'nexus-prisma';
 const Mutation = prismaObjectType({
   name: 'Mutation',
   definition: t =>
-    t.prismaFields({ filter: ['deleteManyUsers', 'updateManyUsers'] }),
+    t.prismaFields({ filter: [
+      'deleteManyMenuItems',
+      'updateManyMenuItems'
+    ]}),
 });
 
 export default Mutation;
+
+

@@ -1,7 +1,7 @@
 import Query from './Query';
 import Mutation from './Mutation';
-import User from './User';
+import MenuItem from './MenuItem';
 
-const types = [Query, Mutation, User];
+const types = [Query, Mutation, MenuItem];
 
 export default types;
