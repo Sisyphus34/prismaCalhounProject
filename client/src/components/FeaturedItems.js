@@ -26,7 +26,7 @@ const FeaturedItems = (props) => {
     <Carousel activeIndex={index} direction={direction} onSelect={handleSelect} >
       <Carousel.Item>
         <img
-          src={`https://source.unsplash.com/1920x1080/?${data.menuItems[0].name}`}
+          src={`https://source.unsplash.com/1400x900/?${data.menuItems[0].name}`}
           alt="Menu Item"
         />
         <Carousel.Caption>
@@ -36,7 +36,7 @@ const FeaturedItems = (props) => {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          src={`https://source.unsplash.com/1920x1080/?${data.menuItems[1].name}`}
+          src={`https://source.unsplash.com/1400x900/?${data.menuItems[1].name}`}
           alt="Menu Item"
         />
 
@@ -48,7 +48,7 @@ const FeaturedItems = (props) => {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          src={`https://source.unsplash.com/1920x1080/?${data.menuItems[2].name}`}
+          src={`https://source.unsplash.com/1400x900/?${data.menuItems[2].name}`}
           alt="Menu Item"
         />
 

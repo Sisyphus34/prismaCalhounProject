@@ -1,5 +1,20 @@
 import React from 'react'
-import Tabs from 'react-bootstrap/Tab'
+import Tab from 'react-bootstrap/Tab'
 
 
-const 
+
+const Tabs = () => (
+    <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example">
+        <Tab eventKey="home" title="Home">
+            This is tab 1
+        </Tab>
+        <Tab eventKey="profile" title="Profile">
+            This is tab 2
+        </Tab>
+        <Tab eventKey="contact" title="Contact" disabled>
+            This is tab 3 
+        </Tab>
+    </Tabs>
+)
+
+export default Tabs

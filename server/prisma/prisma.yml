@@ -23,6 +23,7 @@ seed:
 
 
 
-endpoint: ${env:PRISMA_ENDPOINT}
+#endpoint: ${env:PRISMA_ENDPOINT}
+endpoint: https://prismaproject1-82a1039e2b.herokuapp.com/server/dev
 
 secret: ${env:PRISMA_SECRET}
