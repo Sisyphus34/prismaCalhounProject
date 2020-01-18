@@ -1,5 +1,5 @@
 import React from 'react'
-import { useGetMenuItemsQuery, useGetAppetizersQuery, useGetEntreesQuery, useGetDessertsQuery } from '../generated/apollo-components'
+import { useGetMenuItemsQuery} from '../generated/apollo-components'
 import MenuItem from './MenuItem'
 import Card from 'react-bootstrap/Card'
 

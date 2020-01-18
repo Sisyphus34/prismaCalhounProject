@@ -1,14 +1,14 @@
 {
     "menu": [
         {
-            "name": "SHE CRAB SOUP",
+            "name": "She Crab Soup",
             "catagory": "Appetizer",
             "description": "A cup of our rich and authentic cream-based she crab soup with sherry, a house favorite (Bowl: $6.00) ",
             "size": "Cup",
             "pricing": "4.00"
         },
         {
-            "name": "SESAME SEARED TUNA",
+            "name": "Sesame Seared Tuna",
             "catagory": "Appetizer",
             "description": "with seaweed salad, ginger, wasabi & tempura-style dipping sauce ",
             "pricing": "12.50"

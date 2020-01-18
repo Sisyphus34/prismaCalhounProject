@@ -1,17 +1,20 @@
 import React from 'react'
-import Header from '../Header'
 import MenuItems from '../MenuItems'
 import Navigation from '../Navigation'
-import FeaturedItems from '../FeaturedItems'
+import FeaturedCarousel from '../FeaturedCarousel'
+import BeigePaper from '../../images/beige-paper.png'
 
 
 const App = () => {
 
   return (
-    <div>
+    <div style={{
+      backgroundColor: '#fffff0',
+      backgroundImage: `url(${BeigePaper})`
+    }}>
       {/* <Header /> */}
       <Navigation />
-      <FeaturedItems />
+      <FeaturedCarousel />
       <MenuItems />
     </div>
   )

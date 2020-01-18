@@ -1,6 +1,8 @@
 import React from 'react'
 import VerticallyCenteredModal from './VerticallyCenteredModal'
 import Button from 'react-bootstrap/Button'
+import DarkWood from '../images/dark-wood.png'
+
 
 
 const MenuItem = (props) => {
@@ -14,7 +16,7 @@ const MenuItem = (props) => {
                 show={modalShow}
                 onHide={() => setModalShow(false)}
             />
-            <Button variant="outline-info" size="sm" onClick={() => setModalShow(true)} block>
+            <Button style={{fontFamily:'serif', backgroundImage: `url(${DarkWood}` }} bg="dark" variant="dark" size="sm" onClick={() => setModalShow(true)} block>
                 {menuItem.name}
             </Button>
         </div >

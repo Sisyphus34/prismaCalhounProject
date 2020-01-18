@@ -1,6 +1,8 @@
 import React from 'react'
 import Modal from 'react-bootstrap/Modal'
 import Button from 'react-bootstrap/Button'
+import DarkWood from '../images/dark-wood.png'
+
 
 const VerticallyCenteredModal = (props) => {
 
@@ -11,19 +13,19 @@ const VerticallyCenteredModal = (props) => {
       aria-labelledby="contained-modal-title-vcenter"
       centered
     >
-      <Modal.Header closeButton>
-        <Modal.Title id="contained-modal-title-vcenter">
+      <Modal.Header style={{fontFamily:'serif', backgroundImage: `url(${DarkWood}` }} closeButton>
+        <Modal.Title id="contained-modal-title-vcenter" style={{fontFamily:'cursive'}} >
           {props.menuItem.catagory}
         </Modal.Title>
       </Modal.Header>
-      <Modal.Body>
-        <h5>{props.menuItem.name}</h5>
-        <p>
+      <Modal.Body bg="dark" variant="dark">
+        <h5 style={{fontFamily:'serif'}}>{props.menuItem.name}</h5>
+        <p style={{fontFamily:'serif'}}> 
           {props.menuItem.description}
-          <p style={{ textAlign: "right" }} >{props.menuItem.formattedPrice}</p>
+          <p style={{ textAlign: "right", fontFamily:'cursive'}} >{props.menuItem.formattedPrice}</p>
         </p>
       </Modal.Body>
-      <Modal.Footer>
+      <Modal.Footer style={{fontFamily:'serif', backgroundImage: `url(${DarkWood}` }}>
         <Button onClick={props.onHide}>Close</Button>
       </Modal.Footer>
     </Modal>
