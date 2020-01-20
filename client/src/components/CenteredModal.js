@@ -2,9 +2,10 @@ import React from 'react'
 import Modal from 'react-bootstrap/Modal'
 import Button from 'react-bootstrap/Button'
 import DarkWood from '../images/dark-wood.png'
+import BeigePaper from '../images/beige-paper.png'
 
 
-const VerticallyCenteredModal = (props) => {
+const CenteredModal = (props) => {
 
   return (
     <Modal
@@ -18,7 +19,10 @@ const VerticallyCenteredModal = (props) => {
           {props.menuItem.catagory}
         </Modal.Title>
       </Modal.Header>
-      <Modal.Body bg="dark" variant="dark">
+      <Modal.Body style={{
+      backgroundColor: '#fffff0',
+      backgroundImage: `url(${BeigePaper})`
+    }}>
         <h5 style={{fontFamily:'serif'}}>{props.menuItem.name}</h5>
         <p style={{fontFamily:'serif'}}> 
           {props.menuItem.description}
@@ -31,4 +35,4 @@ const VerticallyCenteredModal = (props) => {
     </Modal>
   );
 }
-export default VerticallyCenteredModal
+export default CenteredModal

@@ -1,5 +1,5 @@
 import React from 'react'
-import VerticallyCenteredModal from './VerticallyCenteredModal'
+import CenteredModal from './CenteredModal'
 import Button from 'react-bootstrap/Button'
 import DarkWood from '../images/dark-wood.png'
 
@@ -11,7 +11,7 @@ const MenuItem = (props) => {
 
     return (
         <div>
-            <VerticallyCenteredModal
+            <CenteredModal
                 menuItem={menuItem}
                 show={modalShow}
                 onHide={() => setModalShow(false)}
