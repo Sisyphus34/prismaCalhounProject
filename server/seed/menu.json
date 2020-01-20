@@ -140,21 +140,21 @@
             "pricing": "6.95"
         },
         {
-            "name": "PRIME RIB",
+            "name": "Prime Rib",
             "catagory": "Entree",
             "type": "Beef",
             "description": "(12-ounce cut) Slow-roasted daily, served in simmered au jus (Larger cuts available upon request) ",
             "pricing": "27.00"
         },
         {
-            "name": "PRIME RIB AND LOBSTER TAIL PLATTER",
+            "name": "Prime Ribe and Lobster Tail Platter",
             "catagory": "Entree",
             "type": "Beef",
             "description": "(12-ounce cut) Slow-roasted Prime Rib, serve with a (6-ounce) Lobster Tail",
             "pricing": "46.00"
         },
         {
-            "name": "RIB EYE STEAK",
+            "name": "Rib Eye Steak",
             "catagory": "Entree",
             "type": "Beef",
             "description": "(12-ounce cut) Prime-grade Rib Eye, grilled over infrared heat and served with loaded baked potatoes and vegetable medley",
@@ -385,19 +385,19 @@
             "pricing": "27.50"
         },
         {
-            "name": "WARM CARAMEL BROWNIE SUNDAE",
+            "name": "Warm Caramel Brownie Sundae",
             "catagory": "Dessert",
             "description": "Topped with chopped pecans, premium vanilla ice cream, real whipped cream and a cherry. ",
             "pricing": "6.00"
         },
         {
-            "name": "SNICKERS PIE",
+            "name": "Snickers Pie",
             "catagory": "Dessert",
             "description": "Graham Crust layered with fudge brownie, cream cheese filling, chocolate, peanuts and caramel. ",
             "pricing": "5.75"
         },
         {
-            "name": "HOMEMADE PECAN PIE",
+            "name": "Homemade Pecan Pie",
             "catagory": "Dessert",
             "description": "Deep Dish style with a fresh pastry crust, served warm and topped with a dollop of whipped cream and a drizzle of Kahlua. (a la mode $6.50) ",
             "pricing": "5.50"

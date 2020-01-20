@@ -1,9 +1,9 @@
 import React from 'react'
-import MenuItems from '../MenuItems'
+// import MenuItems from '../MenuItems'
 import Navigation from '../Navigation'
 import FeaturedCarousel from '../FeaturedCarousel'
 import BeigePaper from '../../images/beige-paper.png'
-
+import PageTabs from '../PageTabs'
 
 const App = () => {
 
@@ -12,10 +12,11 @@ const App = () => {
       backgroundColor: '#fffff0',
       backgroundImage: `url(${BeigePaper})`
     }}>
-      {/* <Header /> */}
+     
       <Navigation />
       <FeaturedCarousel />
-      <MenuItems />
+      <PageTabs />
+      {/* <MenuItems /> */}
     </div>
   )
 }

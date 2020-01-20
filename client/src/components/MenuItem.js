@@ -10,16 +10,22 @@ const MenuItem = (props) => {
     const [modalShow, setModalShow] = React.useState(false);
 
     return (
+        
         <div>
             <CenteredModal
                 menuItem={menuItem}
                 show={modalShow}
                 onHide={() => setModalShow(false)}
             />
-            <Button style={{fontFamily:'serif', backgroundImage: `url(${DarkWood}` }} bg="dark" variant="dark" size="sm" onClick={() => setModalShow(true)} block>
+            <Button style={{
+                borderTopRightRadius:0,
+                borderTopLeftRadius: 0,
+                fontFamily: 'serif', backgroundImage: `url(${DarkWood}`
+            }} bg="dark" variant="dark" size="sm" onClick={() => setModalShow(true)} block>
                 {menuItem.name}
             </Button>
         </div >
     )
 }
 export default MenuItem
+
